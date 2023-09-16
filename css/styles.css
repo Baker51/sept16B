@@ -1,0 +1,509 @@
+/* buttons in the hero section */
+
+.btn {
+  background: #F63D3D;
+  background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+  background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+  background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+  background-image: -o-linear-gradient(top, #F63D3D, #811616);
+  background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 33px;
+  line-height: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 649px;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 18px;
+  -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  box-shadow: 1px 1px 6px 0 #000000;
+  text-shadow: 1px 1px 6px #000000;
+  border: solid #762C2C 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.btn:hover {
+color: yellow
+
+}
+
+
+
+
+main {
+
+  height: 100%;
+  width: 100%;
+  background-color: tan;
+}
+
+
+
+
+
+
+
+
+
+/* for top part or hero or header information FOR ALL PAGES ONLY below START */
+
+
+
+.heroindex1 { 
+
+  background-color: #074f57;
+  background-image: url("../images/mtn5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+/* for nav bar information FOR MUSIC PAGE ONLY below */
+
+
+.heromusic {
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+/* for nav bar information FOR MERCH PAGE ONLY below */
+
+
+.heromerch {
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+/* for nav bar information FOR EPISODES PAGE ONLY below */
+
+
+.heroepisodes {
+
+  background-color: black;
+  background-image: url("../images/mtn2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+  /* Part of the Top Part Hero section or header area start */
+
+
+.herohead {
+
+  color: yellow;
+  font-size: 150px;
+  font-weight: bold;
+  display: flex;
+
+  /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: 4px red;
+  
+}
+
+.herosub {
+
+  color: white;
+  padding-bottom: 25px;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 35px;
+
+  /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px red;
+
+}
+
+
+  /* Part of the Top Part Hero section or header area end */
+
+
+/* for top part or hero or header information FOR ALL PAGES ONLY below END */
+
+
+/* MAINPICTURE start --  below might be used again but not now, as of Sept 11, 2023 */
+
+
+.mainpicture{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  height:70%;
+  width:70%;
+
+}
+
+/* MAINPICTURE end --  below might be used again but not now, as of Sept 11, 2023 */
+
+
+#testimonials {
+  text-align: center;
+  background-color: yellow;
+  
+  }
+
+
+  #testimonialsband {
+    text-align: center;
+    background-image: url("../images/favpng_spotlight-clip-art.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+    background-color: black;
+    
+    }
+
+    #testimonialsbook {
+      text-align: center;
+      background-repeat: no-repeat;
+      margin-top: 50px;
+  
+      background-color: black;
+      
+      }
+
+  .mastheadtitle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mastheadtitlefounder {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .picture2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left:auto;
+    padding-right: auto;
+    height: 70%;
+    width: 70%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .picture {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+
+
+  #features {
+
+    padding: 5% 4%;
+    position: relative;
+    
+    }
+
+
+
+    .testimonial-text{
+
+      font-family: "Ubuntu";
+      color: black;
+      text-align: left;
+      font-size: 55px ;
+      padding-top: 80px;
+      padding-left:32px;
+      padding-right: 32px;
+      padding-bottom: 100px;
+      
+      
+      }
+
+      .bandtext{
+
+        font-family: "Ubuntu";
+        color: white;
+        text-align: center;
+        font-size: 55px ;
+        padding-top: 80px;
+        padding-left:32px;
+        padding-right: 32px;
+        padding-bottom: 100px;
+        
+        
+        }
+  
+
+      hr {
+
+        border: dotted red 16px;
+        border-bottom: none;
+        width: 100%;
+        margin: 100px auto;
+    
+      
+    }
+
+
+    .bodytextfilm {
+
+      font-size: 55px;
+      font-family: 'Montserrat';
+      color: black;
+    
+    }
+
+    .bodytextfilmclip {
+
+      font-size: 55px;
+      font-family: 'Montserrat';
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+    
+    }
+
+
+
+    .bodytextyellowblock{
+
+      font-size: 55px;
+      font-family: 'Montserrat';
+      color:black;
+    
+    }
+
+    .bodytext{
+
+      font-size: 45px;
+      font-family: 'Montserrat';
+      color:white;
+    
+    }
+
+    .bodytextclip{
+
+      padding-left: 45px;
+      padding-right: 45px;
+
+      font-size: 45px;
+      font-family: 'Montserrat';
+      color:white;
+    
+    }
+
+    .bodytextseasons{
+
+      font-size: 45px;
+      font-family: 'Montserrat';
+      color:black;
+
+      padding-top: 55px;
+      padding-bottom: 55px;
+      padding-left: 55px;
+      padding-right: 55px;
+    
+    }
+
+    .bodytextseasonsbooks{
+
+      font-size: 75px;
+      font-family: 'Montserrat';
+      color:black;
+      text-align: center;
+
+      padding-top: 55px;
+      padding-bottom: 55px;
+      padding-left: 55px;
+      padding-right: 55px;
+    
+    }
+  
+
+    .boldtype {
+
+      color:red;
+      font-weight: bold;
+    }
+
+
+    .boldtypeTan {
+
+      color:red;
+      font-weight: bold;
+      size:65px;
+    }
+
+    .boldtypeYellow {
+
+      color:yellow;
+      font-weight: bold;
+    }
+
+
+    .bandhref {
+
+      color:blue;
+
+    }
+
+    .bandhrefm {
+
+      color:white;
+    }
+
+    .bandhrefmusic {
+
+      color:white;
+      font-size: 84px;
+    }
+
+    .bandhrefyellow {
+
+      color:yellow;
+    }
+
+    .bandhrefred {
+
+      color:aqua;
+    }
+
+
+
+
+    .bookpicture{
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 75px;
+      padding-bottom: 170px;
+      height:75%;
+      width:75%;
+    
+    
+    
+    }
+
+    .setpslistthree{
+
+      font-size: 55px;
+    }
+
+
+    #gofundme {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:white;
+      background-color: black;
+      
+      }
+
+      .HeaderTrueLove{
+
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 25px;
+        padding-bottom: 45px;
+      }
+
+
+          /* footer block */
+
+    
+      #footerindex {
+        padding: 50px;
+        text-align: center;
+        font-size: 38px;
+        color:white;
+        background-color: gray;
+        
+        }
+    
+        p{
+    
+          color:white;
+        }
+    
+
+
+          /* carousel block */
+
+          * {
+
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+          }
+
+
+      .carousel-container {
+
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+          }
+
+
+          .carousel-slide {
+
+            display:flex;
+            width: 100%;
+            height: 500px;
+          }
+      
+
+    
+
+    
+  
